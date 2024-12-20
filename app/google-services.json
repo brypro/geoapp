@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "245933040052",
+    "project_id": "socialgeo-9198f",
+    "storage_bucket": "socialgeo-9198f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245933040052:android:966b275377d19c39da12e1",
+        "android_client_info": {
+          "package_name": "com.brypro.socialgeo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSRJjhSWsQ_S_251VaWNkyzNSmHIWzB-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

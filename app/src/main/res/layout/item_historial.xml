@@ -1,0 +1,49 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Imagen -->
+    <ImageView
+        android:id="@+id/imageViewFoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- Coordenadas -->
+    <TextView
+        android:id="@+id/textViewCoordenadas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lat: -33.456, Lon: -70.648"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageViewFoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <!-- Fecha -->
+    <TextView
+        android:id="@+id/textViewFecha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Fecha: 01/01/2024"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        app:layout_constraintTop_toBottomOf="@id/textViewCoordenadas"
+        app:layout_constraintStart_toStartOf="@id/textViewCoordenadas"
+        app:layout_constraintEnd_toEndOf="@id/textViewCoordenadas" />
+
+    <!-- Botón Ver ubicación -->
+    <Button
+        android:id="@+id/buttonVerUbicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver ubicación"
+        app:layout_constraintTop_toBottomOf="@id/textViewFecha"
+        app:layout_constraintStart_toStartOf="@id/textViewFecha" />
+</androidx.constraintlayout.widget.ConstraintLayout>

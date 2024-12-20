@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Botón para ir a solicitudes pendientes -->
+    <Button
+        android:id="@+id/buttonVerSolicitudes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver solicitudes pendientes"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- RecyclerView para mostrar la lista de amigos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAmigos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
